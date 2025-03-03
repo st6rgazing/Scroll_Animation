@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna’s Magical Journey</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body, html {
+            height: 100%;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            background: #f7f4f1;
+        }
+        .parallax {
+            position: relative;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .title {
+            font-size: 60px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            position: relative;
+            text-align: center;
+            padding: 60px;
+            background: white;
+            font-size: 26px;
+            max-width: 800px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .character-img {
+            width: 100%;
+            max-width: 500px;
+            margin: 30px auto;
+            display: block;
+            border-radius: 20px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax" style="background-image: url('fox.png');">
+    </div>
+    <div class="content">
+        <p>Luna was a magical fox that lived in the forest</p>
+    </div>
+    <div class="parallax" style="background-image: url('forest.png');">
+    </div>
+    <div class="content">
+        <p>One day, she was wandering in the forest and she found a beautiful magical river. She decided to follow it.</p>
+    </div>
+    <div class="parallax" style="background-image: url('island.jpg');">
+    </div>
+    <div class="content">
+        <p>After following the river and a long journey she found a magical island.</p>
+    </div>
+</body>
+</html>
